@@ -4,7 +4,7 @@ Programmer Name: Amandeep Kaur
 Student Id: N01261681
 Description: This application enrolls a student in course and adds information about test mark1 and test mark2 in the course.
 It also calculates the average of the two tests for each student enrolled in the course.
-
+Change trial
 """
 
 # import statistics
