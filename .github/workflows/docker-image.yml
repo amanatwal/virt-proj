@@ -23,8 +23,8 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v3
       with:
-        context: .
-        file: virt-proj/Dockerfile
+        context: virt-proj
+        file: /Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USER_NAME }}/clockbox:latest
    
